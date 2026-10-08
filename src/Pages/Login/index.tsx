@@ -29,7 +29,6 @@ const Login: React.FC = ()=>{
             </S.LeftSide>
             <S.RightSide>
                 <S.Title>Welcome to Tasker</S.Title>
-                <S.Subtitle>Please, insert your informations to access your tasks.</S.Subtitle>
                 <S.FieldName >Email</S.FieldName>
                 <S.InputField value={email} id="email" onChange={handleEmail} placeholder="Insert your email"></S.InputField>
                 <S.FieldName>Password</S.FieldName>
