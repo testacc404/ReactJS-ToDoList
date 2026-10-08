@@ -38,7 +38,7 @@ const Login: React.FC = ()=>{
                 <Link to="/">
                     <S.SignIn onClick={handleLogin}>Sign In</S.SignIn>
                 </Link>
-                <S.Subtitle>Don't have an account? <a>Sign Up</a></S.Subtitle>
+                <S.Subtitle>Don't have an account? <Link to="/signup">Sign Up</Link></S.Subtitle>
             </S.RightSide>
         </S.Page>
     )
